@@ -19,7 +19,7 @@ API desarrollada en ASP.NET Core (.NET 8) para la gestión de ventas, usuarios, 
 - **SistemaVenta.DTO**: Objetos de transferencia de datos.
 - **SistemaVenta.Model**: Modelos de entidades.
 - **SistemaVenta.IOC**: Inyección de dependencias.
-- **SistemaVenta.Utility**: Proyecto que contiene la configuración y las librerías necesarias para el mapeo de objetos con AutoMapper.
+- **SistemaVenta.Utility**: Mapeo de objetos con AutoMapper.
 
 ## Instalación
 
