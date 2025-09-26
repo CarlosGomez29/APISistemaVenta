@@ -71,7 +71,7 @@ namespace SistemaVenta.BLL.Servicios
 
                 if (usuarioCreado.IdUsuario == 0)
                 {
-                    throw new TaskCanceledException("No se pudo crear");
+                    throw new TaskCanceledException("No se pudo crear el usuario");
                 }
 
                 var query = await _usuarioRepositorio.Consultar(u => u.IdUsuario == usuarioCreado.IdUsuario);
@@ -109,7 +109,7 @@ namespace SistemaVenta.BLL.Servicios
 
                 if (!respuesta)
                 {
-                    throw new TaskCanceledException("No se pudo editar");
+                    throw new TaskCanceledException("No se pudo editar el usuario");
                 }
 
                 return respuesta;
@@ -135,7 +135,7 @@ namespace SistemaVenta.BLL.Servicios
 
                 if (!respuesta)
                 {
-                    throw new TaskCanceledException("No se pudo eliminar");
+                    throw new TaskCanceledException("No se pudo eliminar el usuario");
                 }
 
                 return respuesta;
